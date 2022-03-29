@@ -144,17 +144,43 @@ form a:hover{
     color: black;
 }
 section img{
-    
-    width: 250px;
-    height: 250px;
-    margin: auto 40px
-    
+   width: 250px;
+   height: 250px;
+   margin: auto 40px;
 
 }
-@media only screen and (max-width:1080px){
-div#parallegram{
-    height: 690px;
-
+@media only screen and (max-width:1080px) {
+ div#parallelogram{
+     height: 690px;
+ }
+ section img{
+     display: none;
 }
+}
+@media only screen and (max-width: 510px){
+    div#parallelogram{
+        display: none;
+    }
+    section{
+        min-width: 95vw;
+    }
+    form{
+        width:100%;
+    }
+    fieldset:nth-child(2)
+    fieldset:nth-child(4)
+    fieldset:nth-child(5){
+       flex-direction: column;
+    }
+    fieldset:nth-child(4){
+        padding: 0px;
+    }
+    div#chek{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        margin-left: 0;
+    }
 
 }
