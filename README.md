@@ -1,7 +1,13 @@
-## Formulário de Contato
+# Formulário de Contato
+
+Esse projeto é baseado no formulário de cadastro atual do Facebook. Nele, coloquei em prática a criação de formulários em HTML e a estilização usando CSS.
 
 O formulário de contato é uma página web simples que permite aos usuários preencher informações como nome, e-mail, assunto e mensagem. Após o envio do formulário, os dados são validados para garantir que o campo de e-mail esteja em um formato válido. Os dados enviados são exibidos em uma área abaixo do formulário.
+### ✨ Tecnologias Utilziadas
 
+- HTML5
+- CSS
+- JAVASCRIPT
 
 ## Como usar o Formulário de Contato
 
@@ -43,8 +49,7 @@ Se o e-mail não for válido, uma mensagem de erro será exibida.
 
 **Observação**: Lembre-se de que este formulário é apenas um exemplo básico e não inclui processamento no lado do servidor. Para um uso em produção, é recomendado implementar um tratamento adequado dos dados enviados, como enviá-los por e-mail ou armazená-los em um banco de dados seguro.
 
+![Desktop Design](design/screen.jpg)
 
-```html
-<!DOCTYPE html>
-<!-- ... (cole aqui o código HTML) ... -->
-</html>
+
+### Obrigado por visitar meu repositório!❤️
